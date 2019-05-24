@@ -1,0 +1,15 @@
+Creating and filling variables is a powerful concept that allow us to keep track of all kinds of data in our program.
+
+In this lesson, we learned how to create and print several different datatypes in Java, which you’ll use as you create bigger and more complex programs.
+
+We covered:
+
+    ints, which store whole numbers
+    doubles, which store bigger whole numbers and decimal numbers
+    booleans, which store true and false
+    chars, which store single characters using single quotes.
+    Strings, which store multiple characters using double quotes.
+    Static typing, which is one of the safety features of Java
+    Variable naming conventions.
+
+Practice declaring variables and assigning values to make sure you have a solid foundation for learning more complicated and exciting Java concepts!
