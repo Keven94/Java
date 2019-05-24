@@ -1,3 +1,7 @@
+/*
+Some of these variable names are illegal! Change the ones that are preventing the file from compiling.
+*/
+
 public class BadNames 
 {
 	public static void main(String[] args) 
