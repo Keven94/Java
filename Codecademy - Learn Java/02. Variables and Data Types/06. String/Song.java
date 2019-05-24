@@ -2,7 +2,7 @@
 1. Create a variable called openingLyrics that holds "Yesterday, all my troubles seemed so far away".
 
 2. Call System.out.println() to print out openingLyrics.
-/*
+*/
 
 public class Song 
 {
