@@ -6,13 +6,15 @@ First, create a variable called sameNumberOfSongs that stores whether the two al
 2. Now, create a variable called differentLength that stores the result of checking whether the two album lengths are not the same.
 */
 
-public class EqualNotEqual {
-	public static void main(String[] args) {   
+public class EqualNotEqual 
+{
+	public static void main(String[] args) 
+	{   
 		int songsA = 9;
-    int songsB = 9;
-    int albumLengthA = 41;
-    int albumLengthB = 53;
-    boolean sameNumberOfSongs = songsA == songsB;
-    boolean differentLength = albumLengthA != albumLengthB;
+		int songsB = 9;
+		int albumLengthA = 41;
+		int albumLengthB = 53;
+		boolean sameNumberOfSongs = songsA == songsB;
+		boolean differentLength = albumLengthA != albumLengthB;
 	}
 }
