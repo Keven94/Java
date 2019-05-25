@@ -1,7 +1,9 @@
 /*
-1.Print the expression that checks if the amount of credits you have earned, creditsEarned, is greater than the number of credits you need to graduate, creditsToGraduate.
+1.Print the expression that checks if the amount of credits you have earned, creditsEarned, 
+is greater than the number of credits you need to graduate, creditsToGraduate.
 
-2.Create a variable called creditsAfterSeminar that holds the amount of credits earned after taking a seminar, which is worth creditsOfSeminar credits. creditsAfterSeminar should be the sum of creditsEarned and creditsOfSeminar.
+2.Create a variable called creditsAfterSeminar that holds the amount of credits earned after taking a seminar, 
+which is worth creditsOfSeminar credits. creditsAfterSeminar should be the sum of creditsEarned and creditsOfSeminar.
 Print out whether creditsToGraduate is less than creditsAfterSeminar.
 */
 
