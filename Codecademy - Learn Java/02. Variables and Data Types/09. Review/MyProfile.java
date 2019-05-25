@@ -13,7 +13,7 @@ In the main() method, create a variable called name that holds your name, as a s
 
 public class MyProfile 
 {
-	public static void main(String[] args) 
+  public static void main(String[] args) 
   {
     String name = "Kevin";
     int age = 24;
