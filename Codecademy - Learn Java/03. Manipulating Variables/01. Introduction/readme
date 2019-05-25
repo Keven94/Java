@@ -1,0 +1,18 @@
+Let’s say we are writing a program that represents a user’s bank account.
+
+With variables, we know how to store a balance! We’d use a double, the primitive type that can hold big decimal numbers.
+
+But how would we deposit and withdraw from the account?
+
+Java has built-in math operations that perform calculations on numeric values!
+
+To deposit:
+
+// declare initial balance
+double balance = 20000.99;
+// declare deposit amount
+double depositAmount = 1000.00;
+// store result of calculation in new variable
+double updatedBalance = balance + depositAmount;
+
+Throughout this lesson, we will learn how to perform math on different datatypes and compare values.
