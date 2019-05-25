@@ -6,16 +6,18 @@ Then, print your animalsInZoo variable.
 Then, print the numZebrasAfterTrade variable!
 */
 
-public class PlusAndMinus {
-	public static void main(String[] args) {   
+public class PlusAndMinus 
+{
+	public static void main(String[] args) 
+	{   
 		int zebrasInZoo = 8;
-    int giraffesInZoo = 4;
-    int animalsInZoo = zebrasInZoo + giraffesInZoo;
+    		int giraffesInZoo = 4;
+    		int animalsInZoo = zebrasInZoo + giraffesInZoo;
     
-    System.out.println(animalsInZoo);
+    		System.out.println(animalsInZoo);
     
-    int numZebrasAfterTrade = zebrasInZoo - 2;
+    		int numZebrasAfterTrade = zebrasInZoo - 2;
     
-    System.out.println(numZebrasAfterTrade);
+    		System.out.println(numZebrasAfterTrade);
 	}
 }
