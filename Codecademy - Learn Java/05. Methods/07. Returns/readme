@@ -1,0 +1,23 @@
+Remember, variables can only exist in the scope that they were declared in.
+
+We can use a value outside of the method it was created in if we return it from the method.
+
+We return a value by using the keyword return:
+
+public int numberOfTires() {
+   int tires = 4;
+   return tires;
+}
+
+This method, called numberOfTires, returns 4. In past exercises, when creating new methods, we used the keyword void. Here, we are replacing void with int, to signify that the return type is an int.
+
+The void keyword (which means “completely empty”) indicates to the method that no value is returned after calling that method.
+
+Alternatively, we can use datatype keywords (such as int, char, etc.) to specify that a method should return a value of that type.
+
+public static void main(String[] args){
+  Car myCar = new Car("red");
+  int numTires = myCar.numberOfTires();
+}
+
+Within main(), we called the numberOfTires() method on myCar. Since the method returns an int value of 4, we store the value 4 in an integer variable called numTires. If we printed numTires, we would see 4.
