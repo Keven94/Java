@@ -1,0 +1,29 @@
+We saw how a method’s scope prevents us from using variables declared in one method in another method. What if we had some information in one method that we needed to pass into another method?
+
+Similar to how we added parameters to constructors, we can customize all other methods to accept parameters.
+
+class Car {
+
+  String color;
+
+  public Car(String carColor) {
+    color = carColor;         
+  }
+
+  public void startRadio(String station) {
+    System.out.println("Turning on the radio to " + station + "!");
+    System.out.println("Enjoy!");
+  }
+
+  public static void main(String[] args){
+    Car myCar = new Car("red");
+    myCar.startRadio("Meditation Station");
+  }
+}
+
+In this code, we create a startRadio() method that accepts an String parameter called station. In the main() method, we call the startRadio() method on the myCar object and provide an String parameter of "Meditation Station".
+
+A call to the startRadio() method on myCar results in printing:
+
+Turning on the radio to Meditation Station!
+Enjoy!
