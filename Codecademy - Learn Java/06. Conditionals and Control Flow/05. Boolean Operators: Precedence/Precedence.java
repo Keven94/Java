@@ -1,7 +1,7 @@
 /*
 Line 10 has a code statement that is incomplete. 
 Use each Boolean operator no more than once to replace the empty comments /**/. 
-The code statement should print out false.
+//The code statement should print out false.
 */
 
 public class Precedence {
