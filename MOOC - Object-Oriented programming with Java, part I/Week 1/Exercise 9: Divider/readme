@@ -1,7 +1,0 @@
-Create a program that asks the user for two integers and prints their quotient. Make sure that 3 / 2 = 1.5.
-
-Type a number: 3
-Type another number: 2
-
-Division: 3 / 2 = 1.5
-        
