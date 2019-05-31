@@ -1,9 +1,0 @@
-Create a program that asks the user for two integers and then prints their sum.
-
-Type a number: 6
-Type another number: 2
-
-Sum of the numbers: 8
-        
-
-In this example the user input is marked in red color. From now on the red color will indicate user input in examples.
