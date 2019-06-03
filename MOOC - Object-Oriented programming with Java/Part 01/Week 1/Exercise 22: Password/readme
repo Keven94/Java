@@ -1,0 +1,11 @@
+In this exercise we create a program that asks the user for a password. If the password is right, a secret message is shown to the user.
+
+Type the password: turnip
+Wrong!
+Type the password: beetroot
+Wrong!
+Type the password: carrot
+Right!
+
+The secret is: jryy qbar!
+        
