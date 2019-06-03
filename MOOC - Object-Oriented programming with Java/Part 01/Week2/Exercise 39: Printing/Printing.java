@@ -1,5 +1,5 @@
-public class Printing {
-
+public class Printing 
+{
     public static void printStars(int amount) 
     {
         // 39.1
