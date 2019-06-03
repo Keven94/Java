@@ -40,10 +40,9 @@ public class Printing
     {
         // 39.4
         int i = 1;
-        while(size > 0)
+        while(i <= size)
         {
             printStars(i);
-            size--;
             i++;
         }
     }
