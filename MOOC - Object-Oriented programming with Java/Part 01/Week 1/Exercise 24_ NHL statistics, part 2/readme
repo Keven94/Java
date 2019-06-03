@@ -1,0 +1,73 @@
+We will continue using the NHL component introduced earlier and create a program that the user can use to query for statistics.
+
+The program is structured similarly to the Calculator example program above. The program body is as follows:
+
+public static void main(String[] args) throws Exception {
+    Scanner reader = new Scanner(System.in);
+
+    System.out.println("NHL statistics service");
+    while (true) {
+        System.out.println("");
+        System.out.print("command (points, goals, assists, penalties, player, club, quit): ");
+        String command = reader.nextLine();
+
+        if (command.equals("quit")) {
+            break;
+        }
+
+        if (command.equals("points")) {
+            // print the top ten playes sorted by points
+        } else if (command.equals("goals")) {
+            // print the top ten players sorted by goals
+        } else if (command.equals("assists")) {
+            // print the top ten players sorted by assists
+        } else if (command.equals("penalties")) {
+            // print the top ten players sorted by penalties
+        } else if (command.equals("player")) {
+            // ask the user for the player name and print the statistics for that player
+        } else if (command.equals("club")) {
+            // ask the user for the club abbreviation and print the statistics for the club
+            // note: the statistics should be sorted by points
+            //     (players with the most points are first)
+        }
+    }
+}
+        
+
+The program asks the user to give commands and then executes the operation that is associated with the given command. The commands are: points, goals, assists, penalties, player, club, quit.
+
+You should write code in the parts marked with comments.
+
+Here is an example demonstrating the program in action:
+
+NHL statistics service
+
+command (points, goals, assists, penalties, player, club): assists
+Henrik Sedin           VAN        43 11 + 38= 49  36
+Erik Karlsson          OTT        43  6 + 35= 41  24
+Claude Giroux          PHI        36 18 + 30= 48  16
+Pavel Datsyuk          DET        41 13 + 30= 43  10
+Brian Campbell         FLA        42  3 + 30= 33   4
+Daniel Sedin           VAN        42 18 + 29= 47  32
+Jason Pominville       BUF        41 14 + 29= 43   8
+Nicklas Backstrom      WSH        38 13 + 29= 42  22
+Joffrey Lupul          TOR        41 19 + 28= 47  36
+Evgeni Malkin          PIT        33 16 + 28= 44  30
+
+command (points, goals, assists, penalties, player, club): player
+which player: Jokinen
+Olli Jokinen           CGY        43 12 + 21= 33  32
+Jussi Jokinen          CAR        40  4 + 19= 23  30
+
+command (points, goals, assists, penalties, player, club): club
+which club: DET
+Pavel Datsyuk          DET        41 13 + 30= 43  10
+Johan Franzen          DET        41 16 + 20= 36  34
+Valtteri Filppula      DET        40 14 + 21= 35  10
+Henrik Zetterberg      DET        41  8 + 24= 32  14
+// and more players
+
+command (points, goals, assists, penalties, player, club): quit
+        
+
+Note: When you first run the program, the execution might take a while because the information is downloaded from the internet. Execution should be quick after the first run.
