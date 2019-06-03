@@ -1,0 +1,17 @@
+Create a program that asks the user for the first number and the last number and then prints all numbers between those two.
+
+First: 5
+Last: 8
+5
+6
+7
+8
+        
+
+If the first number is greater than the last number, the program prints nothing:
+
+First: 16
+Last: 12
+        
+
+Note: Remember that the lower and upper limits can also be negative!
