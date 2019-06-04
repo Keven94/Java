@@ -1,0 +1,11 @@
+Create a program that prints the end part of a word. The program asks the user for the word and the length of the end part. Use the substring method in your program.
+
+Type a word: example
+Length of the end part: 4
+Result: mple
+    
+
+Type a word: example
+Length of the end part: 6
+Result: xample
+    
