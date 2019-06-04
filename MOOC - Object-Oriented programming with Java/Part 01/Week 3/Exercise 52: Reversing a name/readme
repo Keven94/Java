@@ -1,0 +1,11 @@
+Create a program that asks for the user's name and prints it in reverse order. You do not need to create a separate method for this.
+
+Type your name: Paul
+In reverse order: luaP
+    
+
+Type your name: Catherine
+In reverse order: enirehtaC
+    
+
+Hint: You can print one character using the command System.out.print()
