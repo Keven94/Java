@@ -13,13 +13,11 @@ public class WordInsideWord
         
         if(word1.indexOf(word2) > -1)
         {
-            System.out.println("The word '" + word2 + "' is found in the word "
-                    + "'" + word1 + "'.");
+            System.out.println("The word '" + word2 + "' is found in the word '" + word1 + "'.");
         }
         else
         {
-            System.out.println("The word '" + word2 + "' is not found in the "
-                    + "word '" + word1 + "'.");
+            System.out.println("The word '" + word2 + "' is not found in the word '" + word1 + "'.");
         }
     }
 }
