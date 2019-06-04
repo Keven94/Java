@@ -1,0 +1,11 @@
+Create a program that asks for the user's name and gives the first character.
+
+Type your name: Paul
+First character: P
+    
+
+Type your name: Catherine
+First character: C
+    
+
+Note! Your program should be structured so that you put the search for the first character in its own method: public static char firstCharacter(String text). The tests will be testing both the method firstCharacter and the program overall
