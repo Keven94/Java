@@ -1,0 +1,13 @@
+Create a program that asks the user for two words. Then the program tells if the second word is included in the first word. Use String method indexOf in your program.
+
+Type the first word: glitter
+Type the second word: litter
+The word 'litter' is found in the word 'glitter'.
+    
+
+Type the first word: glitter
+Type the second word: clean
+The word 'clean' is not found in the word 'glitter'.
+    
+
+Note: Make your program outputs (prints) match exactly the example above!
