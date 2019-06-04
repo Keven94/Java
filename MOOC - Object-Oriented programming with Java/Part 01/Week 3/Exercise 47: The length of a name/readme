@@ -1,0 +1,11 @@
+Create a program that asks for the user's name and says how many characters the name contains.
+
+Type your name: Paul
+Number of characters: 4
+    
+
+Type your name: Catherine
+Number of characters: 9
+    
+
+Note!Your program should be structured so that you put the calculating of the name length in it's own method: public static int calculateCharacters(String text). The tests will be testing both the method calculateCharacters and the program overall.
