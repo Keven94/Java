@@ -1,0 +1,22 @@
+Create a program that asks for the user's name and gives its characters separately. You do not need to create methods in this exercise.
+
+Type your name: Paul
+1. character: P
+2. character: a
+3. character: u
+4. character: l
+    
+
+Hint: using a while loop helps in this exercise!
+
+Type your name: Catherine
+1. character: C
+2. character: a
+3. character: t
+4. character: h
+5. character: e
+6. character: r
+7. character: i
+8. character: n
+9. character: e
+    
