@@ -1,0 +1,16 @@
+Create the method greatest, which gets three integers as parameters and then returns the greatest of them. If there are several parameters that are equally great, you can decide which one is returned. Printing should be done in the main program.
+
+public static int greatest(int number1, int number2, int number3) {
+    // write your code here
+}
+
+public static void main(String[] args) {
+    int answer =  greatest(2, 7, 3);
+    System.out.println("Greatest: " + answer);
+}
+    
+
+Example output:
+
+Greatest: 7
+    
