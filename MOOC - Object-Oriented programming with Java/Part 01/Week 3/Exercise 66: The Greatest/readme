@@ -1,0 +1,22 @@
+Create the method greatest, which receives a list of numbers (ArrayList<Integer>) as a parameter and then returns the greatest number in the list as a return value.
+
+public static int greatest(ArrayList<Integer> list) {
+    // write your code here
+}
+
+public static void main(String[] args) {
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    list.add(3);
+    list.add(2);
+    list.add(7);
+    list.add(2);
+
+    System.out.println("The greatest number is: " + greatest(list));
+}
+    
+
+Program output:
+
+
+The greatest number is: 7
+    
