@@ -1,0 +1,14 @@
+Create a program that asks the user to input words until the user gives the same word twice. Use an ArrayList structure in your program. ArrayList is defined like this:
+
+ArrayList<String> words = new ArrayList<String>();
+    
+
+Type a word: carrot
+Type a word: celery
+Type a word: turnip
+Type a word: rutabaga
+Type a word: celery
+You gave the word celery twice
+    
+
+Hint: Remember that ArrayList has the method .contains()
