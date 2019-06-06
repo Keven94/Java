@@ -1,0 +1,14 @@
+Create the method public static int countItems(ArrayList<String> list) that returns the number of the items in the list. Your method should not print anything. Use a return statement to return the number as shown in the following example:
+
+ArrayList<String> list = new ArrayList<String>();
+list.add("Hallo");
+list.add("Ciao");
+list.add("Hello");
+System.out.println("There are this many items in the list:");
+System.out.println(countItems(list));
+    
+
+
+There are this many items in the list:
+3
+    
