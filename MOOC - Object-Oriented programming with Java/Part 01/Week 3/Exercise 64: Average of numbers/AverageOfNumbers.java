@@ -11,7 +11,6 @@ public class AverageOfNumbers
         return sum;
     }
     
-
     public static double average(ArrayList<Integer> list) {
         // write code here
         return (double) sum(list) / list.size();
