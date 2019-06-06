@@ -1,0 +1,28 @@
+Create the method public static void removeLast(ArrayList<String> list), which removes the last item from the list. Example code:
+
+ArrayList<String> brothers = new ArrayList<String>();
+brothers.add("Dick");
+brothers.add("Henry");
+brothers.add("Michael");
+brothers.add("Bob");
+
+System.out.println("brothers:");
+System.out.println(brothers);
+
+// sorting brothers
+brothers.sort();
+
+// removing the last item
+removeLast(brothers);
+
+System.out.println(brothers);
+    
+
+Example output:
+
+brothers:
+[Dick, Henry, Michael, Bob]
+[Bob, Dick, Henry]
+    
+
+As we notice from the example above, an ArrayList can be printed as it is. The print formatting is not usually what is sought after, so we are forced to handle the printing ourself. For example, with the help of the for command.
