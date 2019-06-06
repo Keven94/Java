@@ -1,0 +1,15 @@
+Create a similar program as the previous one, but in which the words are printed in alphabetical order.
+
+Type a word: Mozart
+Type a word: Schubert
+Type a word: Bach
+Type a word: Sibelius
+Type a word: Liszt
+Type a word:
+You typed the following words:
+Bach
+Liszt
+Mozart
+Schubert
+Sibelius
+    
