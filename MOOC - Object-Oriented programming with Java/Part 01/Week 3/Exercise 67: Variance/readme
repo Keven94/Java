@@ -1,0 +1,28 @@
+Create the method variance, which receives a list of integers as a parameter and then returns the sample variance of that list. You can check how a sample variance is calculated in Wikipedia, under "Population variance and sample variance".
+
+Note: the method should use the method average of exercise 64 to calculate the average of the parameters. The method should be called only once!
+
+public static double variance(ArrayList<Integer> list) {
+    // write your code here
+}
+
+public static void main(String[] args) {
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    list.add(3);
+    list.add(2);
+    list.add(7);
+    list.add(2);
+
+    System.out.println("The variance is: " + variance(list));
+}
+    
+
+Program output:
+
+
+The variance is: 5.666667
+    
+
+(The average of the numbers is 3.5, so the sample variance is ((3 - 3.5)² + (2 - 3.5)² + (7 - 3.5)² + (2 - 3.5)²)/(4 - 1) ? 5,666667.)
+
+Note while testing your program! Sample variance for a list that contains only one item is not defined! It causes a division by zero in the formula. Java considers the result of division by zero as a Not a Number (NaN).
