@@ -14,6 +14,13 @@ public class LengthsOfStrings
             i++;
         }
         
+        /*
+        for (String i : list)
+        {
+            lengthList.add(i.length());
+        }
+        */
+        
         return lengthList;
     }
 
